@@ -31,12 +31,12 @@ const RightSidebar = () => {
                 Instagram
                 </button>
             </div>
-            <div className="bg-[#F3F3F3] p-3 rounded-sm">
+            <div className="bg-[#F3F3F3] p-3 pb-10 rounded-sm">
                 <h2 className="text-xl font-semibold mb-5">Q-Zone</h2>
-                <div className="space-y-6">
-                    <img src={qZone1} alt="" />
-                    <img src={qZone2} alt="" />
-                    <img src={qZone3} alt="" />
+                <div className="space-y-6 flex flex-col items-center">
+                    <img src={qZone1} alt="" className="w-full md:w-3/4 lg:w-full"/>
+                    <img src={qZone2} alt="" className="w-full md:w-3/4 lg:w-full"/>
+                    <img src={qZone3} alt="" className="w-full md:w-3/4 lg:w-full"/>
                 </div>
             </div>
         </div>

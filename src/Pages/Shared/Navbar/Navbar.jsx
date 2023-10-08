@@ -21,9 +21,10 @@ const Navbar = () => {
         <li><NavLink to={"/about"}>About</NavLink></li>
         <li><NavLink to={"/career"}>Career</NavLink></li>
         <li><NavLink to={"/login"}>Login</NavLink></li>
+        <li><NavLink to={"/addict"}>Addict</NavLink></li>
     </>
     return (  
-      <div className="navbar mb-16 pt-2">
+      <div className="navbar mb-16 pt-4">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
